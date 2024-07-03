@@ -1,7 +1,7 @@
 // Code your testbench here
 // or browse Examples
 `include "run_tests.sv"
- function bit is_anagram(input string s,input string t);
+ function automatic bit is_anagram(input string s,input string t);
   automatic byte s_d[int];
   automatic byte t_d[int];
   if(s.len!=t.len)
