@@ -2,8 +2,8 @@
 // or browse Examples
 `include "run_tests.sv"
  function automatic bit is_anagram(input string s,input string t);
-  automatic byte s_d[int];
-  automatic byte t_d[int];
+   byte s_d[int];
+   byte t_d[int];
   if(s.len!=t.len)
     return 0;
 
